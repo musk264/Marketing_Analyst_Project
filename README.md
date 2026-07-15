@@ -1,89 +1,76 @@
 # Marketing_Analyst_Project
-# 📊 Marketing Analytics Business Insights Dashboard
+# 📊 Marketing Analytics Business Insights
 
-## 📌 Project Overview
-This project presents an interactive **Marketing Analytics Dashboard** built in **Power BI** to analyze marketing campaign performance, customer engagement, conversion rates, and customer feedback. The dashboard transforms raw business data into actionable insights, enabling stakeholders to make data-driven marketing decisions.
+## Project Overview
+This project is an interactive **Power BI dashboard** developed to analyze marketing campaign performance, customer engagement, conversion rates, and customer feedback. The dashboard transforms raw marketing data into actionable business insights, enabling stakeholders to monitor key performance indicators (KPIs), identify trends, and make data-driven decisions.
 
-## 🎯 Business Problem
-ShopEasy, an online retail company, experienced declining customer engagement and conversion rates despite increased marketing investments. This project analyzes campaign performance and customer feedback to identify improvement opportunities and recommend data-driven strategies to enhance marketing effectiveness.
+## Dataset Used
+**Name:** Marketing Campaign & Customer Feedback Dataset
 
-## 🎯 Objectives
-- Analyze marketing campaign performance across multiple KPIs.
-- Monitor customer engagement and conversion trends.
-- Perform customer sentiment analysis using review data.
-- Identify high-performing products and seasonal trends.
-- Generate actionable business recommendations to improve marketing ROI.
+**Data Includes:**
+- Marketing campaign performance
+- Customer engagement metrics
+- Conversion data
+- Product performance
+- Customer reviews and ratings
 
-## 📊 Key Performance Indicators (KPIs)
-- Conversion Rate
-- Customer Engagement Rate
-- Average Order Value (AOV)
-- Customer Feedback Score
-- High-Carbon/High-Performing Products (Business Metrics)
-- Click-Through Rate (CTR)
+## What I Did
+- Cleaned and transformed marketing data using **Power Query**.
+- Created a relational data model and developed **DAX measures** to calculate business KPIs.
+- Built an interactive **Power BI dashboard** featuring KPI cards, slicers, drill-through pages, and dynamic visualizations.
+- Performed customer sentiment analysis on **500+ customer reviews** to identify strengths and improvement areas.
+- Analyzed campaign performance over **12 months** to identify seasonal trends, conversion patterns, and engagement metrics.
+- Generated actionable recommendations to improve customer engagement, optimize marketing strategies, and enhance campaign performance.
 
-## 📈 Dashboard Insights
-- Analyzed **12 months** of marketing campaign performance.
-- Identified a peak conversion rate of **10.2%** and a low of **5.0%**, highlighting seasonal performance variations.
-- Observed a **15.37% Click-Through Rate (CTR)**, indicating effective engagement among active users despite declining overall views.
-- Analyzed **500+ customer reviews**, including **275 positive reviews**, with an average customer rating of **3.7/5**.
-- Identified declining engagement in the second half of the year and recommended improvements to content strategy and customer experience.
+## Key Performance Indicators (KPIs)
 
-## 💡 Business Recommendations
-- Focus marketing campaigns on high-converting product categories during peak seasons.
-- Improve customer engagement using interactive and personalized marketing content.
-- Address recurring customer issues identified through sentiment analysis.
-- Optimize marketing spend by prioritizing high-performing campaigns.
+| KPI | Value |
+|------|-------|
+| Campaign Period | 12 Months |
+| Peak Conversion Rate | 10.2% |
+| Lowest Conversion Rate | 5.0% |
+| Customer Reviews Analyzed | 500+ |
+| Positive Reviews | 275 |
+| Average Customer Rating | 3.7 / 5 |
 
-## 🛠 Tools & Technologies
+## Dashboard Features
+- Executive KPI Dashboard
+- Monthly Conversion Trend Analysis
+- Customer Engagement Analysis
+- Customer Sentiment Dashboard
+- Product Performance Analysis
+- Interactive Slicers & Filters
+- Drill-through Reports
+- Dynamic Visualizations
+
+## Tools & Technologies Used
 - Power BI
 - Power Query
 - DAX
 - Microsoft Excel
 - Data Modeling
-- KPI Dashboard
+- Data Cleaning
+- KPI Dashboard Development
 - Data Visualization
-- Customer Sentiment Analysis
 
-## 📂 Dashboard Features
-- Interactive KPI Cards
-- Monthly Conversion Trend Analysis
-- Customer Engagement Dashboard
-- Customer Sentiment Analysis
-- Product Performance Analysis
-- Drill-through Reports
-- Dynamic Filters & Slicers
+## Business Insights
+- Identified seasonal variations in marketing performance, with conversion rates ranging from **5.0% to 10.2%**.
+- Customer sentiment analysis revealed **275 positive reviews** and an average customer rating of **3.7/5**, highlighting opportunities to improve customer satisfaction.
+- Recommended optimizing campaign strategies by focusing on high-performing products and improving engagement during low-conversion periods.
 
-## 📁 Project Structure
-```
-Marketing-Analytics-Business-Insights/
-│
-├── Marketing_Analytics_Dashboard.pbix
-├── Dataset/
-│   ├── marketing_data.xlsx
-│   └── customer_reviews.csv
-├── Dashboard_Screenshot.png
-├── Project_Presentation.pdf
-└── README.md
-```
+## Conclusion
+This project demonstrates an end-to-end **Business Intelligence (BI)** workflow, from data preparation and modeling to dashboard development and business insight generation. It showcases the use of **Power BI, DAX, and Power Query** to transform marketing data into interactive dashboards that support strategic, data-driven decision-making.
 
-## 📷 Dashboard Preview
-
-> Add screenshots of your Power BI dashboard here.
-
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 - Business Intelligence (BI)
 - Marketing Analytics
 - Dashboard Development
-- KPI Analysis
-- Customer Sentiment Analysis
-- Data Cleaning & Transformation
+- Data Visualization
 - Data Modeling
+- Power BI
 - DAX
 - Power Query
-- Data Visualization
+- KPI Analysis
+- Customer Sentiment Analysis
 - Business Insights
-- Decision Support
-
-## 📌 Key Learnings
-This project demonstrates how interactive dashboards and marketing analytics can be used to monitor campaign performance, uncover customer behavior patterns, evaluate customer sentiment, and support strategic business decisions through data-driven insights.
+- Data-Driven Decision Making
